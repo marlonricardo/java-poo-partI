@@ -1,10 +1,10 @@
 public class IdGeneratedAccount {
+    public static final int INITIAL_VALUE = 10;
     private int number;
     private int agency;
     private String owner;
     private double balance;
-
-    private static int currentId = 1; // atributo static, os objetos passam a enxergar pela classe, não por cada objeto
+    private static int currentId = INITIAL_VALUE; // atributo static, os objetos passam a enxergar pela classe, não por cada objeto
 
     //Initializing constructors
     //I added an empty constructor to allow me to instantiate it without setting parameters
