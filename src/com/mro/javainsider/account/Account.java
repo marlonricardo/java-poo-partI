@@ -27,7 +27,7 @@ public class Account {
 
 
     //methods
-    void deposit(double amount){
+    public void deposit(double amount){
         if(amount > 0){
             balance += amount;
         }else{
@@ -36,19 +36,19 @@ public class Account {
 
     }
 
-    void withdraw(double amount){
+    public void withdraw(double amount){
         if(balance - amount < 0){
             throw new IllegalStateException("Saldo insuficiente!");
         }
         balance -= amount;
     }
 
-    void transfer(Account destNumber, double amount){
+    public void transfer(Account destNumber, double amount){
         withdraw(amount);
         destNumber.deposit(amount);
     }
 
-    void printBalance(){
+    public void printBalance(){
         System.out.println("======Initial Print Balance======");
         System.out.println("Owner: " + owner);
         System.out.println("Agency/com.mro.javainsider.exercims.Number: " + agency + " - " + number);

@@ -1,7 +1,8 @@
 package com.mro.javainsider.others;
 
-import com.mro.javainsider.account.Account;
-import com.mro.javainsider.account.CurrentAccount;
+import com.mro.javainsider.account.*;
+
+//fully qualified name
 
 public class Main {
     public static void main(String[] args) {
