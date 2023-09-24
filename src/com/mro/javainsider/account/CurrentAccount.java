@@ -1,3 +1,5 @@
+package com.mro.javainsider.account;
+
 public class CurrentAccount extends Account{
     private final double monthTax = 15;
 

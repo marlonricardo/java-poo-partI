@@ -1,3 +1,5 @@
+package com.mro.javainsider.others;
+
 public class Lamp {
     private boolean on;
 

@@ -1,3 +1,5 @@
+package com.mro.javainsider.account;
+
 public class IdGeneratedAccount {
     public static final int INITIAL_VALUE = 10;
     private int number;
@@ -60,7 +62,7 @@ public class IdGeneratedAccount {
     void printBalance(){
         System.out.println("======Initial Print Balance======");
         System.out.println("Owner: " + owner);
-        System.out.println("Agency/Number: " + agency + " - " + number);
+        System.out.println("Agency/com.mro.javainsider.exercims.Number: " + agency + " - " + number);
         System.out.println("Balance: R$" + balance);
         System.out.println("======End Print Balance======");
         System.out.println();

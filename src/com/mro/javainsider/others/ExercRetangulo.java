@@ -1,3 +1,5 @@
+package com.mro.javainsider.others;
+
 public class ExercRetangulo {
     public static void main(String[] args) {
         Retangulo retangulo1 = new Retangulo(10, 5);

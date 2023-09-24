@@ -1,3 +1,7 @@
+package com.mro.javainsider.app;
+
+import com.mro.javainsider.account.IdGeneratedAccount;
+
 public class AppIdGeneratedAccount {
     public static void main(String[] args) {
         var a1 = new IdGeneratedAccount("Marlon Ricardo");

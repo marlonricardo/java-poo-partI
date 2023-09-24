@@ -1,3 +1,5 @@
+package com.mro.javainsider.others;
+
 public class ExercNumber2 {
     public static void main(String[] args) {
         var n1 = Number.newNumber(10);

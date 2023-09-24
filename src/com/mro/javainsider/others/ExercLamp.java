@@ -1,4 +1,4 @@
-import javax.swing.*;
+package com.mro.javainsider.others;
 
 public class ExercLamp {
     public static void main(String[] args) {

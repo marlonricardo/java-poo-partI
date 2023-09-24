@@ -1,3 +1,5 @@
+package com.mro.javainsider.others;
+
 public class Retangulo {
     private final double largura, altura, square;
 
